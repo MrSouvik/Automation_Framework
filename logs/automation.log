@@ -1,0 +1,7 @@
+22:58:37.305 [main] INFO  testCases.TC002_LoginTest - Properties file loaded
+22:58:37.448 [main] INFO  testCases.TC002_LoginTest - Email entered
+22:58:37.449 [main] INFO  testCases.TC002_LoginTest - Properties file loaded
+22:58:37.519 [main] INFO  testCases.TC002_LoginTest - Password Entered
+22:58:38.402 [main] INFO  testCases.TC002_LoginTest - Clicked On Login button
+22:58:38.443 [main] INFO  testCases.TC002_LoginTest - Test case executed
+22:58:38.637 [main] INFO  testCases.TC002_LoginTest - Driver closed... 

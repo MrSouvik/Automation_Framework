@@ -1,0 +1,56 @@
+21:46:10.270 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - Confirmed Password entered
+21:46:10.331 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - Policy seted
+21:46:10.376 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Test Automation setup done... 
+21:46:10.378 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - *** TC001_AccountRegistration ***
+21:46:10.644 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Clicked On My Account
+21:46:11.336 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Clicked On Register
+21:46:11.375 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - Clicked on Continue button
+21:46:11.409 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - First Name entered
+21:46:11.451 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Last Name entered
+21:46:11.487 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Email entered
+21:46:11.516 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Telephone entered
+21:46:11.540 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Password entered
+21:46:11.567 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Confirmed Password entered
+21:46:11.793 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Policy seted
+21:46:12.499 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Clicked on Continue button
+21:46:12.707 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - Driver closed... 
+21:46:13.157 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Driver closed... 
+22:02:03.819 [main] INFO  testCases.TC001_AccountRegistration - Properties file loaded
+22:02:03.821 [main] INFO  testCases.TC001_AccountRegistration - Test Automation setup started... 
+22:02:05.116 [main] INFO  testCases.TC001_AccountRegistration - Test Execution started on - chrome
+22:02:12.976 [main] INFO  testCases.TC001_AccountRegistration - Url : https://www.tutorialsninja.com/demo/ loaded sucessfully
+22:02:13.016 [main] INFO  testCases.TC001_AccountRegistration - Test Automation setup done... 
+22:02:13.032 [main] INFO  testCases.TC001_AccountRegistration - *** TC001_AccountRegistration ***
+22:02:13.131 [main] INFO  testCases.TC001_AccountRegistration - Clicked On My Account
+22:02:14.333 [main] INFO  testCases.TC001_AccountRegistration - Clicked On Register
+22:02:14.428 [main] INFO  testCases.TC001_AccountRegistration - First Name entered
+22:02:14.499 [main] INFO  testCases.TC001_AccountRegistration - Last Name entered
+22:02:14.610 [main] INFO  testCases.TC001_AccountRegistration - Email entered
+22:02:14.689 [main] INFO  testCases.TC001_AccountRegistration - Telephone entered
+22:02:14.771 [main] INFO  testCases.TC001_AccountRegistration - Password entered
+22:02:14.858 [main] INFO  testCases.TC001_AccountRegistration - Confirmed Password entered
+22:02:14.910 [main] INFO  testCases.TC001_AccountRegistration - Policy seted
+22:02:16.000 [main] INFO  testCases.TC001_AccountRegistration - Clicked on Continue button
+22:02:16.211 [main] INFO  testCases.TC001_AccountRegistration - Driver closed... 
+22:57:37.554 [main] INFO  testCases.TC002_LoginTest - Test Automation setup started... 
+22:57:41.178 [main] INFO  testCases.TC002_LoginTest - Test Execution started on - chrome
+22:57:41.182 [main] INFO  testCases.TC002_LoginTest - Properties file loaded
+22:57:44.695 [main] INFO  testCases.TC002_LoginTest - Url : <https://www.tutorialsninja.com/demo/> loaded sucessfully
+22:57:44.723 [main] INFO  testCases.TC002_LoginTest - Test Automation setup done... 
+22:57:44.747 [main] INFO  testCases.TC002_LoginTest - *** TC002_Login Test ***
+22:57:44.853 [main] INFO  testCases.TC002_LoginTest - Clicked On My Account
+22:57:45.184 [main] INFO  testCases.TC002_LoginTest - Clicked On Login
+22:57:45.185 [main] INFO  testCases.TC002_LoginTest - Properties file loaded
+22:57:45.322 [main] INFO  testCases.TC002_LoginTest - Email entered
+22:57:45.322 [main] INFO  testCases.TC002_LoginTest - Properties file loaded
+22:57:45.399 [main] INFO  testCases.TC002_LoginTest - Password Entered
+22:57:45.943 [main] INFO  testCases.TC002_LoginTest - Clicked On Login button
+22:58:06.158 [main] INFO  testCases.TC002_LoginTest - Driver closed... 
+22:58:32.679 [main] INFO  testCases.TC002_LoginTest - Test Automation setup started... 
+22:58:33.969 [main] INFO  testCases.TC002_LoginTest - Test Execution started on - chrome
+22:58:33.974 [main] INFO  testCases.TC002_LoginTest - Properties file loaded
+22:58:36.750 [main] INFO  testCases.TC002_LoginTest - Url : <https://www.tutorialsninja.com/demo/> loaded sucessfully
+22:58:36.788 [main] INFO  testCases.TC002_LoginTest - Test Automation setup done... 
+22:58:36.810 [main] INFO  testCases.TC002_LoginTest - *** TC002_Login Test ***
+22:58:36.914 [main] INFO  testCases.TC002_LoginTest - Clicked On My Account
+22:58:37.303 [main] INFO  testCases.TC002_LoginTest - Clicked On Login
