@@ -1,7 +1,35 @@
-22:58:37.305 [main] INFO  testCases.TC002_LoginTest - Properties file loaded
-22:58:37.448 [main] INFO  testCases.TC002_LoginTest - Email entered
-22:58:37.449 [main] INFO  testCases.TC002_LoginTest - Properties file loaded
-22:58:37.519 [main] INFO  testCases.TC002_LoginTest - Password Entered
-22:58:38.402 [main] INFO  testCases.TC002_LoginTest - Clicked On Login button
-22:58:38.443 [main] INFO  testCases.TC002_LoginTest - Test case executed
-22:58:38.637 [main] INFO  testCases.TC002_LoginTest - Driver closed... 
+21:44:28.025 [main] INFO  testCases.TC003_LoginDataDrivenTest - Email entered - ssDemo123@gmail.com
+21:44:28.100 [main] INFO  testCases.TC003_LoginDataDrivenTest - Password Entered - demo123
+21:44:28.996 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On Login button
+21:44:29.031 [main] INFO  testCases.TC003_LoginDataDrivenTest - Testcase pass for data set - [ssDemo123@gmail.com][demo123]
+21:44:29.896 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On My Account
+21:44:30.260 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On Login
+21:44:30.383 [main] INFO  testCases.TC003_LoginDataDrivenTest - Email entered - ssDemo12@gmail.com
+21:44:30.452 [main] INFO  testCases.TC003_LoginDataDrivenTest - Password Entered - demo12
+21:44:30.892 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On Login button
+21:44:40.923 [main] INFO  testCases.TC003_LoginDataDrivenTest - Testcase pass for data set - [ssDemo12@gmail.com][demo12]
+21:44:40.991 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On My Account
+21:44:41.714 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On Login
+21:44:41.815 [main] INFO  testCases.TC003_LoginDataDrivenTest - Email entered - ssDemo13@gmail.com
+21:44:41.889 [main] INFO  testCases.TC003_LoginDataDrivenTest - Password Entered - demo13
+21:44:42.232 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On Login button
+21:44:52.295 [main] INFO  testCases.TC003_LoginDataDrivenTest - Testcase failed for data set - [ssDemo13@gmail.com][demo13]
+21:44:52.370 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On My Account
+21:44:53.297 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On Login
+21:44:53.399 [main] INFO  testCases.TC003_LoginDataDrivenTest - Email entered - ssDemo14@gmail.com
+21:44:53.467 [main] INFO  testCases.TC003_LoginDataDrivenTest - Password Entered - demo14
+21:44:53.764 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On Login button
+21:45:03.782 [main] INFO  testCases.TC003_LoginDataDrivenTest - Testcase pass for data set - [ssDemo14@gmail.com][demo14]
+21:45:03.838 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On My Account
+21:45:04.391 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On Login
+21:45:04.496 [main] INFO  testCases.TC003_LoginDataDrivenTest - Email entered - ssDemo125@gmail.com
+21:45:04.568 [main] INFO  testCases.TC003_LoginDataDrivenTest - Password Entered - demo125
+21:45:05.478 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On Login button
+21:45:05.498 [main] INFO  testCases.TC003_LoginDataDrivenTest - Testcase pass for data set - [ssDemo125@gmail.com][demo125]
+21:45:06.335 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On My Account
+21:45:06.722 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On Login
+21:45:06.851 [main] INFO  testCases.TC003_LoginDataDrivenTest - Email entered - ssDemo123@gmail.com
+21:45:06.933 [main] INFO  testCases.TC003_LoginDataDrivenTest - Password Entered - demo123
+21:45:07.450 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On Login button
+21:45:08.481 [main] INFO  testCases.TC003_LoginDataDrivenTest - Testcase failed for data set - [ssDemo123@gmail.com][demo123]
+21:45:08.630 [main] INFO  testCases.TC003_LoginDataDrivenTest - Driver closed... 

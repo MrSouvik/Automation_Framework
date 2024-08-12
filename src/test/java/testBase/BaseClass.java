@@ -31,7 +31,7 @@ public class BaseClass {
 		
 		
 		logger.info("Test Automation setup started... ");
-		switch(br.toLowerCase()) {
+		switch(br.toLowerCase()) { 
 			case  "chrome" : driver = new ChromeDriver();
 							 break;
 							 
@@ -46,7 +46,7 @@ public class BaseClass {
 		
 		}
 		logger.info("Test Execution started on - "+br);
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		String url = getPropertiesValue("appUrl");
 		driver.get(url);
 		logger.info("Url : <"+url+"> loaded sucessfully");
