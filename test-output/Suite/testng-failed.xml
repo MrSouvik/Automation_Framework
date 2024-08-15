@@ -4,6 +4,11 @@
   <parameter name="os" value="windows"/>
   <parameter name="browser" value="chrome"/>
   <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Master"/>
+      </run>
+    </groups>
     <classes>
       <class name="testCases.TC003_LoginDataDrivenTest">
         <methods>

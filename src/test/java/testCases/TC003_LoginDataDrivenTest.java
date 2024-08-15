@@ -18,7 +18,7 @@ import testBase.BaseClass;
  */
 public class TC003_LoginDataDrivenTest extends BaseClass {
 
-	@Test(dataProvider = "LoginData", dataProviderClass = utlities.dataProvider.class) //getting data provider from different class
+	@Test(dataProvider = "LoginData", dataProviderClass = utlities.dataProvider.class, groups= {"DDT_Test","Master"}) //getting data provider from different class
 	public void LoginDataDrivenTest(String userName, String password, String exp_Results) {
 		try {
 			HomePage hp = new HomePage(driver);

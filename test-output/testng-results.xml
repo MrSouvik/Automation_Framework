@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+<testng-results ignored="0" total="8" passed="2" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-12T21:44:20 IST" name="Suite" finished-at="2024-08-12T21:45:08 IST" duration-ms="48180">
+  <suite started-at="2024-08-15T20:53:16 IST" name="Master Suite" finished-at="2024-08-15T20:53:38 IST" duration-ms="22549">
     <groups>
+      <group name="Master">
+        <method signature="TC001_AccountRegistration.verify_Account_Registration()[pri:0, instance:testCases.TC001_AccountRegistration@6c284af]" name="verify_Account_Registration" class="testCases.TC001_AccountRegistration"/>
+        <method signature="TC002_LoginTest.loginTest()[pri:0, instance:testCases.TC002_LoginTest@183ec003]" name="loginTest" class="testCases.TC002_LoginTest"/>
+        <method signature="TC003_LoginDataDrivenTest.LoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDataDrivenTest@7d9d0818]" name="LoginDataDrivenTest" class="testCases.TC003_LoginDataDrivenTest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC002_LoginTest.loginTest()[pri:0, instance:testCases.TC002_LoginTest@183ec003]" name="loginTest" class="testCases.TC002_LoginTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC001_AccountRegistration.verify_Account_Registration()[pri:0, instance:testCases.TC001_AccountRegistration@6c284af]" name="verify_Account_Registration" class="testCases.TC001_AccountRegistration"/>
+      </group> <!-- Regression -->
+      <group name="DDT_Test">
+        <method signature="TC003_LoginDataDrivenTest.LoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDataDrivenTest@7d9d0818]" name="LoginDataDrivenTest" class="testCases.TC003_LoginDataDrivenTest"/>
+      </group> <!-- DDT_Test -->
     </groups>
-    <test started-at="2024-08-12T21:44:20 IST" name="Test" finished-at="2024-08-12T21:45:08 IST" duration-ms="48180">
+    <test started-at="2024-08-15T20:53:16 IST" name="Master Test" finished-at="2024-08-15T20:53:38 IST" duration-ms="22549">
       <class name="testCases.TC003_LoginDataDrivenTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDataDrivenTest@18271936]" started-at="2024-08-12T21:44:20 IST" name="setup" finished-at="2024-08-12T21:44:26 IST" duration-ms="6144" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDataDrivenTest@7d9d0818]" started-at="2024-08-15T20:53:29 IST" name="setup" finished-at="2024-08-15T20:53:33 IST" duration-ms="4590" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDataDrivenTest@18271936]" started-at="2024-08-12T21:44:27 IST" name="LoginDataDrivenTest" data-provider="LoginData" finished-at="2024-08-12T21:44:29 IST" duration-ms="2391" status="PASS">
+        <test-method signature="LoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDataDrivenTest@7d9d0818]" started-at="2024-08-15T20:53:34 IST" name="LoginDataDrivenTest" data-provider="LoginData" finished-at="2024-08-15T20:53:37 IST" duration-ms="3193" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -44,7 +58,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDataDrivenTest -->
-        <test-method signature="LoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDataDrivenTest@18271936]" started-at="2024-08-12T21:44:29 IST" name="LoginDataDrivenTest" data-provider="LoginData" finished-at="2024-08-12T21:44:40 IST" duration-ms="11078" status="PASS">
+        <test-method signature="LoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDataDrivenTest@7d9d0818]" started-at="2024-08-15T20:53:37 IST" name="LoginDataDrivenTest" data-provider="LoginData" finished-at="2024-08-15T20:53:38 IST" duration-ms="469" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -62,10 +76,50 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.TC003_LoginDataDrivenTest.LoginDataDrivenTest(TC003_LoginDataDrivenTest.java:69)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDataDrivenTest -->
-        <test-method signature="LoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDataDrivenTest@18271936]" started-at="2024-08-12T21:44:40 IST" name="LoginDataDrivenTest" data-provider="LoginData" finished-at="2024-08-12T21:44:52 IST" duration-ms="11372" status="FAIL">
+        <test-method signature="LoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDataDrivenTest@7d9d0818]" started-at="2024-08-15T20:53:38 IST" name="LoginDataDrivenTest" data-provider="LoginData" finished-at="2024-08-15T20:53:38 IST" duration-ms="7" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -85,15 +139,13 @@
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+              <![CDATA[java.lang.AssertionError: null
 at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at testCases.TC003_LoginDataDrivenTest.LoginDataDrivenTest(TC003_LoginDataDrivenTest.java:50)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.TC003_LoginDataDrivenTest.LoginDataDrivenTest(TC003_LoginDataDrivenTest.java:69)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -128,7 +180,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDataDrivenTest -->
-        <test-method signature="LoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDataDrivenTest@18271936]" started-at="2024-08-12T21:44:52 IST" name="LoginDataDrivenTest" data-provider="LoginData" finished-at="2024-08-12T21:45:03 IST" duration-ms="11470" status="PASS">
+        <test-method signature="LoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDataDrivenTest@7d9d0818]" started-at="2024-08-15T20:53:38 IST" name="LoginDataDrivenTest" data-provider="LoginData" finished-at="2024-08-15T20:53:38 IST" duration-ms="15" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -146,10 +198,50 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.TC003_LoginDataDrivenTest.LoginDataDrivenTest(TC003_LoginDataDrivenTest.java:69)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDataDrivenTest -->
-        <test-method signature="LoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDataDrivenTest@18271936]" started-at="2024-08-12T21:45:03 IST" name="LoginDataDrivenTest" data-provider="LoginData" finished-at="2024-08-12T21:45:06 IST" duration-ms="2492" status="PASS">
+        <test-method signature="LoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDataDrivenTest@7d9d0818]" started-at="2024-08-15T20:53:38 IST" name="LoginDataDrivenTest" data-provider="LoginData" finished-at="2024-08-15T20:53:38 IST" duration-ms="14" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -167,10 +259,50 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.TC003_LoginDataDrivenTest.LoginDataDrivenTest(TC003_LoginDataDrivenTest.java:69)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDataDrivenTest -->
-        <test-method signature="LoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDataDrivenTest@18271936]" started-at="2024-08-12T21:45:06 IST" name="LoginDataDrivenTest" data-provider="LoginData" finished-at="2024-08-12T21:45:08 IST" duration-ms="2205" status="FAIL">
+        <test-method signature="LoginDataDrivenTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_LoginDataDrivenTest@7d9d0818]" started-at="2024-08-15T20:53:38 IST" name="LoginDataDrivenTest" data-provider="LoginData" finished-at="2024-08-15T20:53:38 IST" duration-ms="11" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -190,15 +322,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+              <![CDATA[java.lang.AssertionError: null
 at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at testCases.TC003_LoginDataDrivenTest.LoginDataDrivenTest(TC003_LoginDataDrivenTest.java:62)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.TC003_LoginDataDrivenTest.LoginDataDrivenTest(TC003_LoginDataDrivenTest.java:69)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -233,11 +363,103 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginDataDrivenTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_LoginDataDrivenTest@18271936]" started-at="2024-08-12T21:45:08 IST" name="tearDown" finished-at="2024-08-12T21:45:08 IST" duration-ms="147" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_LoginDataDrivenTest@7d9d0818]" started-at="2024-08-15T20:53:38 IST" name="tearDown" finished-at="2024-08-15T20:53:38 IST" duration-ms="82" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC003_LoginDataDrivenTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      <class name="testCases.TC001_AccountRegistration">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistration@6c284af]" started-at="2024-08-15T20:53:16 IST" name="setup" finished-at="2024-08-15T20:53:19 IST" duration-ms="3620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_Account_Registration()[pri:0, instance:testCases.TC001_AccountRegistration@6c284af]" started-at="2024-08-15T20:53:19 IST" name="verify_Account_Registration" finished-at="2024-08-15T20:53:22 IST" duration-ms="2408" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testCases.TC001_AccountRegistration.verify_Account_Registration(TC001_AccountRegistration.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Account_Registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistration@6c284af]" started-at="2024-08-15T20:53:22 IST" name="tearDown" finished-at="2024-08-15T20:53:22 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_AccountRegistration -->
+      <class name="testCases.TC002_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@183ec003]" started-at="2024-08-15T20:53:22 IST" name="setup" finished-at="2024-08-15T20:53:27 IST" duration-ms="5078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:testCases.TC002_LoginTest@183ec003]" started-at="2024-08-15T20:53:27 IST" name="loginTest" finished-at="2024-08-15T20:53:29 IST" duration-ms="1636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@183ec003]" started-at="2024-08-15T20:53:29 IST" name="tearDown" finished-at="2024-08-15T20:53:29 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC002_LoginTest -->
+    </test> <!-- Master Test -->
+  </suite> <!-- Master Suite -->
 </testng-results>

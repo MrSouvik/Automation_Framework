@@ -8,22 +8,36 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">48,180</td><td></td><td></td></tr>
+<tr><th colspan="8">Master Suite</th></tr>
+<tr><td><a href="#t0">Master Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">6</td><td class="num">22,549</td><td>Master</td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">testCases.TC003_LoginDataDrivenTest</td><td><a href="#m0">LoginDataDrivenTest</a></td><td rowspan="2">1723479306276</td><td rowspan="2">2205</td></tr><tr class="failedeven"><td><a href="#m1">LoginDataDrivenTest</a></td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">testCases.TC003_LoginDataDrivenTest</td><td><a href="#m2">LoginDataDrivenTest</a></td><td rowspan="4">1723479269845</td><td rowspan="4">11078</td></tr><tr class="passedeven"><td><a href="#m3">LoginDataDrivenTest</a></td></tr><tr class="passedeven"><td><a href="#m4">LoginDataDrivenTest</a></td></tr><tr class="passedeven"><td><a href="#m5">LoginDataDrivenTest</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Master Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Master Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.TC001_AccountRegistration</td><td><a href="#m0">verify_Account_Registration</a></td><td rowspan="1">1723735399888</td><td rowspan="1">2408</td></tr><tr class="failedodd"><td rowspan="5">testCases.TC003_LoginDataDrivenTest</td><td><a href="#m1">LoginDataDrivenTest</a></td><td rowspan="5">1723735417975</td><td rowspan="5">469</td></tr><tr class="failedodd"><td><a href="#m2">LoginDataDrivenTest</a></td></tr><tr class="failedodd"><td><a href="#m3">LoginDataDrivenTest</a></td></tr><tr class="failedodd"><td><a href="#m4">LoginDataDrivenTest</a></td></tr><tr class="failedodd"><td><a href="#m5">LoginDataDrivenTest</a></td></tr><tr><th colspan="4">Master Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TC002_LoginTest</td><td><a href="#m6">loginTest</a></td><td rowspan="1">1723735407559</td><td rowspan="1">1636</td></tr><tr class="passedodd"><td rowspan="1">testCases.TC003_LoginDataDrivenTest</td><td><a href="#m7">LoginDataDrivenTest</a></td><td rowspan="1">1723735414781</td><td rowspan="1">3193</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">testCases.TC003_LoginDataDrivenTest#LoginDataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>ssDemo123@gmail.com</td><td>demo123</td><td>Invalid</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
-	at testCases.TC003_LoginDataDrivenTest.LoginDataDrivenTest(TC003_LoginDataDrivenTest.java:62)
+<h2>Master Test</h2><h3 id="m0">testCases.TC001_AccountRegistration#verify_Account_Registration</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at testCases.TC001_AccountRegistration.verify_Account_Registration(TC001_AccountRegistration.java:55)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testCases.TC003_LoginDataDrivenTest#LoginDataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>ssDemo13@gmail.com</td><td>demo13</td><td>Valid</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
-	at testCases.TC003_LoginDataDrivenTest.LoginDataDrivenTest(TC003_LoginDataDrivenTest.java:50)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCases.TC003_LoginDataDrivenTest#LoginDataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>ssDemo12@gmail.com</td><td>demo12</td><td>Invalid</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: null
+	at testCases.TC003_LoginDataDrivenTest.LoginDataDrivenTest(TC003_LoginDataDrivenTest.java:69)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testCases.TC003_LoginDataDrivenTest#LoginDataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>ssDemo12@gmail.com</td><td>demo12</td><td>Invalid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testCases.TC003_LoginDataDrivenTest#LoginDataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>ssDemo125@gmail.com</td><td>demo125</td><td>Valid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">testCases.TC003_LoginDataDrivenTest#LoginDataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>ssDemo14@gmail.com</td><td>demo14</td><td>Invalid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">testCases.TC003_LoginDataDrivenTest#LoginDataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>ssDemo123@gmail.com</td><td>demo123</td><td>Valid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCases.TC003_LoginDataDrivenTest#LoginDataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>ssDemo14@gmail.com</td><td>demo14</td><td>Invalid</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: null
+	at testCases.TC003_LoginDataDrivenTest.LoginDataDrivenTest(TC003_LoginDataDrivenTest.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testCases.TC003_LoginDataDrivenTest#LoginDataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>ssDemo123@gmail.com</td><td>demo123</td><td>Invalid</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: null
+	at testCases.TC003_LoginDataDrivenTest.LoginDataDrivenTest(TC003_LoginDataDrivenTest.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testCases.TC003_LoginDataDrivenTest#LoginDataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>ssDemo13@gmail.com</td><td>demo13</td><td>Valid</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: null
+	at testCases.TC003_LoginDataDrivenTest.LoginDataDrivenTest(TC003_LoginDataDrivenTest.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testCases.TC003_LoginDataDrivenTest#LoginDataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>ssDemo125@gmail.com</td><td>demo125</td><td>Valid</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: null
+	at testCases.TC003_LoginDataDrivenTest.LoginDataDrivenTest(TC003_LoginDataDrivenTest.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testCases.TC002_LoginTest#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testCases.TC003_LoginDataDrivenTest#LoginDataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>ssDemo123@gmail.com</td><td>demo123</td><td>Valid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
