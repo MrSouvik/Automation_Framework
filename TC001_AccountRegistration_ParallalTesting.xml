@@ -25,11 +25,4 @@
 		</classes>
 	</test> <!-- Test -->
 	
-	<test thread-count="5" name="Safary - Test">
-		<parameter name="os" value="Mac" />
-		<parameter name="browser" value="Safary" />
-		<classes>
-			<class name="testCases.TC001_AccountRegistration" />
-		</classes>
-	</test> <!-- Test -->
 </suite> <!-- Suite -->

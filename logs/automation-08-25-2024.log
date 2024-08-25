@@ -1,0 +1,49 @@
+11:30:09.032 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistration - Driver closed... 
+11:30:10.282 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - Driver closed... 
+11:30:33.277 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - Test Automation setup started... 
+11:30:33.281 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - Properties file loaded
+11:30:34.877 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistration - Test Execution started on - chrome
+11:30:34.907 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistration - Properties file loaded
+11:30:34.974 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - Test Execution started on - edge
+11:30:34.983 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - Properties file loaded
+11:30:39.540 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistration - Url : <https://www.tutorialsninja.com/demo/> loaded sucessfully
+11:30:39.580 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistration - Test Automation setup done... 
+11:30:39.583 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistration - *** TC001_AccountRegistration ***
+11:30:39.667 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistration - Clicked On My Account
+11:30:39.769 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - Url : <https://www.tutorialsninja.com/demo/> loaded sucessfully
+11:30:39.818 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - Test Automation setup done... 
+11:30:39.821 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - *** TC001_AccountRegistration ***
+11:30:39.915 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - Clicked On My Account
+11:30:40.137 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistration - Clicked On Register
+11:30:40.234 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistration - First Name entered
+11:30:40.294 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistration - Last Name entered
+11:30:40.367 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistration - Email entered
+11:30:40.421 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistration - Telephone entered
+11:30:40.498 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistration - Password entered
+11:30:40.501 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - Clicked On Register
+11:30:40.586 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistration - Confirmed Password entered
+11:30:40.609 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - First Name entered
+11:30:40.657 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistration - Policy seted
+11:30:40.693 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - Last Name entered
+11:30:40.772 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - Email entered
+11:30:40.832 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - Telephone entered
+11:30:40.902 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - Password entered
+11:30:40.972 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - Confirmed Password entered
+11:30:41.022 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - Policy seted
+11:30:41.623 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistration - Clicked on Continue button
+11:30:41.818 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistration - Driver closed... 
+11:30:42.361 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - Clicked on Continue button
+11:30:43.623 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - Driver closed... 
+11:31:16.797 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Test Automation setup started... 
+11:31:16.801 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Properties file loaded
+11:31:18.344 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - Test Execution started on - edge
+11:31:18.350 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistration - Test Execution started on - chrome
+11:31:18.353 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - Properties file loaded
+11:31:18.357 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistration - Properties file loaded
+11:31:20.954 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Test Execution started on - firefox
+11:31:20.964 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Properties file loaded
+11:31:24.223 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistration - Url : <https://www.tutorialsninja.com/demo/> loaded sucessfully
+11:31:24.238 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - Url : <https://www.tutorialsninja.com/demo/> loaded sucessfully
+11:31:24.278 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistration - Test Automation setup done... 
+11:31:24.304 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistration - *** TC001_AccountRegistration ***
+11:31:24.306 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - Test Automation setup done... 

@@ -1,21 +1,35 @@
-20:53:34.745 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-20:53:34.758 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-20:53:34.759 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-20:53:34.759 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-20:53:34.771 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-20:53:34.772 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-20:53:34.772 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-20:53:34.847 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On My Account
-20:53:36.569 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On Login
-20:53:36.695 [main] INFO  testCases.TC003_LoginDataDrivenTest - Email entered - ssDemo123@gmail.com
-20:53:36.768 [main] INFO  testCases.TC003_LoginDataDrivenTest - Password Entered - demo123
-20:53:37.434 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On Login button
-20:53:37.465 [main] INFO  testCases.TC003_LoginDataDrivenTest - Testcase pass for data set - [ssDemo123@gmail.com][demo123]
-20:53:38.021 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On My Account
-20:53:38.433 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On Login
-20:53:38.443 [main] INFO  testCases.TC003_LoginDataDrivenTest - Test failed
-20:53:38.454 [main] INFO  testCases.TC003_LoginDataDrivenTest - Test failed
-20:53:38.473 [main] INFO  testCases.TC003_LoginDataDrivenTest - Test failed
-20:53:38.495 [main] INFO  testCases.TC003_LoginDataDrivenTest - Test failed
-20:53:38.512 [main] INFO  testCases.TC003_LoginDataDrivenTest - Test failed
-20:53:38.598 [main] INFO  testCases.TC003_LoginDataDrivenTest - Driver closed... 
+11:31:24.308 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - *** TC001_AccountRegistration ***
+11:31:28.275 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Url : <https://www.tutorialsninja.com/demo/> loaded sucessfully
+11:31:28.563 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Test Automation setup done... 
+11:31:28.565 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - *** TC001_AccountRegistration ***
+11:31:28.850 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Clicked On My Account
+11:31:29.978 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Clicked On Register
+11:31:30.055 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - First Name entered
+11:31:30.074 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Last Name entered
+11:31:30.104 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Email entered
+11:31:30.123 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Telephone entered
+11:31:30.144 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Password entered
+11:31:30.165 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Confirmed Password entered
+11:31:30.387 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Policy seted
+11:31:31.955 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Clicked on Continue button
+11:31:32.748 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistration - Driver closed... 
+11:31:34.346 [TestNG-tests-1] ERROR testCases.TC001_AccountRegistration - Test Case broken - no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='My Account']"}
+  (Session info: chrome=128.0.6613.84)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6c3358e7cbb7d9b8e7eefcb8b6a76c39, findElement {value=//span[normalize-space()='My Account'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.84, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57848}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57848/devtoo..., se:cdpVersion: 128.0.6613.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6c3358e7cbb7d9b8e7eefcb8b6a76c39
+11:31:34.393 [TestNG-tests-3] ERROR testCases.TC001_AccountRegistration - Test Case broken - no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='My Account']"}
+  (Session info: MicrosoftEdge=127.0.2651.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [37f870b2d2ec03ee65dabe7bed0e6bd3, findElement {value=//span[normalize-space()='My Account'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57851}, msedge: {msedgedriverVersion: 127.0.2651.105 (e2354f41f84..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57851/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 37f870b2d2ec03ee65dabe7bed0e6bd3
+11:31:34.535 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistration - Driver closed... 
+11:31:35.684 [TestNG-tests-3] INFO  testCases.TC001_AccountRegistration - Driver closed... 
