@@ -1,0 +1,49 @@
+21:26:43.962 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:26:43.977 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:26:43.978 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+21:26:43.979 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:26:43.997 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:26:43.998 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+21:26:44.000 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:26:44.013 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+21:26:44.013 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+21:26:44.014 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+21:26:44.080 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On My Account
+21:26:44.313 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On Login
+21:26:44.441 [main] INFO  testCases.TC003_LoginDataDrivenTest - Email entered - ssDemo123@gmail.com
+21:26:44.509 [main] INFO  testCases.TC003_LoginDataDrivenTest - Password Entered - demo123
+21:26:45.008 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On Login button
+21:26:45.034 [main] INFO  testCases.TC003_LoginDataDrivenTest - Testcase pass for data set - [ssDemo123@gmail.com][demo123]
+21:26:45.393 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On My Account
+21:26:45.598 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On Login
+21:26:45.709 [main] INFO  testCases.TC003_LoginDataDrivenTest - Email entered - ssDemo12@gmail.com
+21:26:45.775 [main] INFO  testCases.TC003_LoginDataDrivenTest - Password Entered - demo12
+21:26:46.116 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On Login button
+21:26:56.168 [main] INFO  testCases.TC003_LoginDataDrivenTest - Testcase pass for data set - [ssDemo12@gmail.com][demo12]
+21:26:56.203 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On My Account
+21:26:57.706 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On Login
+21:26:57.773 [main] INFO  testCases.TC003_LoginDataDrivenTest - Email entered - ssDemo13@gmail.com
+21:26:57.851 [main] INFO  testCases.TC003_LoginDataDrivenTest - Password Entered - demo13
+21:26:58.451 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On Login button
+21:27:08.502 [main] INFO  testCases.TC003_LoginDataDrivenTest - Testcase failed for data set - [ssDemo13@gmail.com][demo13]
+21:27:08.556 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On My Account
+21:27:09.441 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On Login
+21:27:09.506 [main] INFO  testCases.TC003_LoginDataDrivenTest - Email entered - ssDemo14@gmail.com
+21:27:09.557 [main] INFO  testCases.TC003_LoginDataDrivenTest - Password Entered - demo14
+21:27:09.999 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On Login button
+21:27:20.064 [main] INFO  testCases.TC003_LoginDataDrivenTest - Testcase pass for data set - [ssDemo14@gmail.com][demo14]
+21:27:20.107 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On My Account
+21:27:20.470 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On Login
+21:27:20.530 [main] INFO  testCases.TC003_LoginDataDrivenTest - Email entered - ssDemo125@gmail.com
+21:27:20.576 [main] INFO  testCases.TC003_LoginDataDrivenTest - Password Entered - demo125
+21:27:21.089 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On Login button
+21:27:21.108 [main] INFO  testCases.TC003_LoginDataDrivenTest - Testcase pass for data set - [ssDemo125@gmail.com][demo125]
+21:27:21.489 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On My Account
+21:27:21.753 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On Login
+21:27:21.824 [main] INFO  testCases.TC003_LoginDataDrivenTest - Email entered - ssDemo123@gmail.com
+21:27:21.875 [main] INFO  testCases.TC003_LoginDataDrivenTest - Password Entered - demo123
+21:27:22.355 [main] INFO  testCases.TC003_LoginDataDrivenTest - Clicked On Login button
+21:27:22.756 [main] INFO  testCases.TC003_LoginDataDrivenTest - Testcase failed for data set - [ssDemo123@gmail.com][demo123]
+21:27:22.918 [main] INFO  testCases.TC003_LoginDataDrivenTest - Driver closed... 
+21:28:43.791 [main] INFO  testCases.TC002_LoginTest - Test Automation setup started... 
+21:28:43.794 [main] INFO  testCases.TC002_LoginTest - Properties file loaded
